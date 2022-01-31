@@ -28,11 +28,10 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="da87f391-6973-4bd1-b570-fa57ea24dd2b">
-      <console name="ConnectionDB Test" type="STANDARD" schema="public" session="Main"><![CDATA[select * FROM "public".books]]></console>
+      <console name="ConnectionDB Test" type="STANDARD" schema="" session="Main" />
     </connection>
     <connection id="060a1d48-870b-41a9-83a2-c9ddfaec6299">
-      <console name="dvdrental test" type="STANDARD" schema="information_schema" session="Main"><![CDATA[select * from public.actor
-WHERE first_name = 'Nick']]></console>
+      <console name="dvdrental test" type="STANDARD" schema="" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
@@ -74,7 +73,7 @@ WHERE first_name = 'Nick']]></console>
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="da87f391-6973-4bd1-b570-fa57ea24dd2b" active="true">
+      <connection id="da87f391-6973-4bd1-b570-fa57ea24dd2b" active="true" signed="true">
         <database>
           <name value="ConnectionDB Test" />
           <description value="" />
@@ -158,7 +157,7 @@ WHERE first_name = 'Nick']]></console>
           <object-name-filters />
         </object-filters>
       </connection>
-      <connection id="060a1d48-870b-41a9-83a2-c9ddfaec6299" active="true">
+      <connection id="060a1d48-870b-41a9-83a2-c9ddfaec6299" active="true" signed="true">
         <database>
           <name value="dvdrental test" />
           <description value="" />
