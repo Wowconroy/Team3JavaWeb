@@ -7,7 +7,7 @@ import java.util.Optional;
 
 public class UserDao implements Dao<User>{
     @Override
-    public Optional<User> get(long id) {
+    public Optional<User> getById(int id) {
         return Optional.empty();
     }
 
@@ -17,7 +17,7 @@ public class UserDao implements Dao<User>{
     }
 
     @Override
-    public void save(User user) {
+    public void create(User user) {
 
     }
 

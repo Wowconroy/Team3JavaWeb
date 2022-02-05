@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Create User">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwok/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwok/model/User.java" afterDir="false" />
+    <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Update User">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwok/dao/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwok/dao/Dao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwok/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwok/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwok/dao/UserDaoImpl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
       <workItem from="1643824111120" duration="2595000" />
       <workItem from="1643907987343" duration="1539000" />
       <workItem from="1644087386120" duration="3258000" />
-      <workItem from="1644099706758" duration="2376000" />
+      <workItem from="1644099706758" duration="2683000" />
     </task>
     <task id="LOCAL-00001" summary="update gitignore">
       <created>1643908080906</created>
@@ -102,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644101176089</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update User">
+      <created>1644102251330</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1644102251330</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +132,7 @@
     <MESSAGE value="need to delete &quot;delete.txt&quot; after updating" />
     <MESSAGE value="update workspace.xml" />
     <MESSAGE value="Create User" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create User" />
+    <MESSAGE value="Update User" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update User" />
   </component>
 </project>
