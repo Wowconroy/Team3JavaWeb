@@ -1,6 +1,6 @@
-package org.teamwok.dao;
+package org.teamwork.dao;
 
-import org.teamwok.model.User;
+import org.teamwork.model.User;
 
 import java.util.List;
 import java.util.Optional;

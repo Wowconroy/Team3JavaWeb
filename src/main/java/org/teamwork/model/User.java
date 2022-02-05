@@ -1,4 +1,4 @@
-package org.teamwok.model;
+package org.teamwork.model;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
