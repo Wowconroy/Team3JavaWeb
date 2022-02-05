@@ -1,6 +1,8 @@
 package org.teamwok.model;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 public class User {
     private int userId;
@@ -11,6 +13,20 @@ public class User {
     private String password;
     private LocalDateTime dateOfBirth;
     private final LocalDateTime regDate = LocalDateTime.now();
+
+    private List<User> users = new ArrayList<>();
+
+    public User() {}
+
+    public User(int userId, String firstName, String lastName, int roleId, String email, String password, LocalDateTime dateOfBirth) {
+        this.userId = userId;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.roleId = roleId;
+        this.email = email;
+        this.password = password;
+        this.dateOfBirth = dateOfBirth;
+    }
 
     public int getUserId() {
         return userId;
@@ -70,5 +86,28 @@ public class User {
 
     public LocalDateTime getRegDate() {
         return regDate;
+    }
+
+    public List<User> getUsers() {
+        return users;
+    }
+
+    public void setUsers(List<User> users) {
+        this.users = users;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "userId=" + userId +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", roleId=" + roleId +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", dateOfBirth=" + dateOfBirth +
+                ", regDate=" + regDate +
+                ", users=" + users +
+                '}';
     }
 }
