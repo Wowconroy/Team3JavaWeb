@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Update User &amp; DAO">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/703cca67-1481-4e3b-ab5e-f8a15cf191ef.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/703cca67-1481-4e3b-ab5e-f8a15cf191ef.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,6 +49,26 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Testyfy" />
   </component>
+  <component name="RunManager">
+    <configuration name="TestUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.teamwork.model.TestUser" />
+      <module name="Team3JavaWeb2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.teamwork.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestUser" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +80,11 @@
       <workItem from="1643824111120" duration="2595000" />
       <workItem from="1643907987343" duration="1539000" />
       <workItem from="1644087386120" duration="3258000" />
-      <workItem from="1644099706758" duration="4310000" />
+      <workItem from="1644099706758" duration="4923000" />
+      <workItem from="1644105247261" duration="1748000" />
+      <workItem from="1644136976807" duration="956000" />
+      <workItem from="1644138534210" duration="53000" />
+      <workItem from="1644139470318" duration="1887000" />
     </task>
     <task id="LOCAL-00001" summary="update gitignore">
       <created>1643908080906</created>
@@ -115,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644102705586</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update User &amp; DAO">
+      <created>1644104514321</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1644104514321</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
