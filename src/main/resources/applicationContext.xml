@@ -12,6 +12,8 @@
 <!--        <constructor-arg value="TestUser"/>-->
     </bean>
 
+<!--    <bean id="dataSource" class=""-->
+
     <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
 <!--            <property name="dataSource" ref=""-->
     </bean>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 5.3//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+
+        <property name="hbm2ddl.auto">update</property>
+        <property name="connection.url">jdbc:postgresql://localhost:5432/books</property>
+        <property name="connection.username">postgres</property>
+        <property name="connection.password">111</property>
+
+    </session-factory>
+</hibernate-configuration>
