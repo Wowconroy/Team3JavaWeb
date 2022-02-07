@@ -76,6 +76,16 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.7.35</version>
         </dependency>
+        <dependency>
+            <groupId>hibernate</groupId>
+            <artifactId>hibernate</artifactId>
+            <version>3.0.5</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.transaction</groupId>
+            <artifactId>jta</artifactId>
+            <version>1.1</version>
+        </dependency>
     </dependencies>
 
     <build>
