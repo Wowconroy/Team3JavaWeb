@@ -31,6 +31,23 @@
             <artifactId>spring-core</artifactId>
             <version>5.3.15</version>
         </dependency>
+
+
+
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>1.7.35</version>
+    </dependency>
+    <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <scope>runtime</scope>
+        <version>1.2.10</version>
+    </dependency>
+
+
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-beans</artifactId>
@@ -91,7 +108,7 @@
             <dependency>
                 <groupId>org.hibernate</groupId>
                 <artifactId>hibernate</artifactId>
-                <version>3.2.5.ga</version>
+                <version>3.5.4-Final</version>
                 <exclusions>
                     <exclusion>
                         <groupId>javax.transaction</groupId>
@@ -102,7 +119,7 @@
             <dependency>
                 <groupId>org.apache.geronimo.specs</groupId>
                 <artifactId>geronimo-jta_1.1_spec</artifactId>
-                <version>1.1</version>
+                <version>1.1.1</version>
             </dependency>
 
 
@@ -113,6 +130,8 @@
             <version>42.3.1</version>
         </dependency>
     </dependencies>
+
+
 
     <build>
         <finalName>Team3JavaWeb2.0</finalName>
