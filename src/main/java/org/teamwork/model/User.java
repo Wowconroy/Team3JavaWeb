@@ -14,6 +14,7 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int userId;
+
     private String firstName;
     private String lastName;
     private int roleId;
@@ -21,9 +22,6 @@ public class User {
     private String password;
     private LocalDateTime dateOfBirth;
     private final LocalDateTime regDate = LocalDateTime.now();
-
-    @Basic
-    private List<User> users = new ArrayList<>();
 
     public User() {}
 
@@ -97,25 +95,18 @@ public class User {
         return regDate;
     }
 
-    public List<User> getUsers() {
-        return users;
-    }
-
-    public void setUsers(List<User> users) {
-        this.users = users;
-    }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         User user = (User) o;
-        return userId == user.userId && roleId == user.roleId && Objects.equals(firstName, user.firstName) && Objects.equals(lastName, user.lastName) && Objects.equals(email, user.email) && Objects.equals(password, user.password) && Objects.equals(dateOfBirth, user.dateOfBirth) && Objects.equals(regDate, user.regDate) && Objects.equals(users, user.users);
+        return userId == user.userId && roleId == user.roleId && Objects.equals(firstName, user.firstName) && Objects.equals(lastName, user.lastName) && Objects.equals(email, user.email) && Objects.equals(password, user.password) && Objects.equals(dateOfBirth, user.dateOfBirth) && Objects.equals(regDate, user.regDate);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(userId, firstName, lastName, roleId, email, password, dateOfBirth, regDate, users);
+        return Objects.hash(userId, firstName, lastName, roleId, email, password, dateOfBirth, regDate);
     }
 
     @Override
@@ -129,7 +120,6 @@ public class User {
                 ", password='" + password + '\'' +
                 ", dateOfBirth=" + dateOfBirth +
                 ", regDate=" + regDate +
-                ", users=" + users +
                 '}';
     }
 
