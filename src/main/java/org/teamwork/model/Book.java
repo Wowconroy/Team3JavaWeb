@@ -1,8 +1,13 @@
 package org.teamwork.model;
 
+import javax.persistence.*;
 import java.util.Objects;
 
+@Entity
+@Table
 public class Book {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int bookId;
     private String title;
     private String description;
@@ -83,4 +88,5 @@ public class Book {
                 ", rate=" + rate +
                 '}';
     }
+
 }

@@ -2,17 +2,17 @@ package org.teamwork.model;
 
 import org.springframework.context.annotation.Bean;
 
-import javax.persistence.Basic;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
 @Entity
+@Table
 public class User {
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int userId;
     private String firstName;
     private String lastName;
@@ -132,4 +132,5 @@ public class User {
                 ", users=" + users +
                 '}';
     }
+
 }
