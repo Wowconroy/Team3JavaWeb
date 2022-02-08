@@ -7,15 +7,32 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <context:annotation-config/>
+
     <bean id="testUser"
           class="org.teamwork.model.User">
+        <description>
+            Ignore this bean. Was created for testing.
+        </description>
 <!--        <constructor-arg value="TestUser"/>-->
     </bean>
 
-<!--    <bean id="dataSource" class=""-->
 
     <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
-<!--            <property name="dataSource" ref=""-->
+        <description>
+            Initialization Session Factory.
+        </description>
+            <property name="hibernateProperties">
+                <value>
+                    hibernate.connection.driver_class=org.postgresql.Driver
+                    hibernate.connection.url=jdbc:postgresql://localhost:5432/books
+                    hibernate.connection.username=postgres
+                    hibernate.connection.password=111
+                    hibernate.dialect=org.hibernate.dialect.HSQLDialect
+                    hibernate.show_sql=false
+                </value>
+            </property>
+        <property name="packagesToScan" value="org.teamwork.model"/>
     </bean>
 
 </beans>
