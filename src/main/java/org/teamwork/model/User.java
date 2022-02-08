@@ -1,13 +1,9 @@
 package org.teamwork.model;
 
-import org.springframework.context.annotation.Bean;
-
-import javax.persistence.Basic;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
 
 @Entity
 public class User {
@@ -21,11 +17,8 @@ public class User {
     private LocalDateTime dateOfBirth;
     private final LocalDateTime regDate = LocalDateTime.now();
 
-    @Basic
-    private List<User> users = new ArrayList<>();
-
     public User() {}
-
+    
     public User(int userId, String firstName, String lastName, int roleId, String email, String password, LocalDateTime dateOfBirth) {
         this.userId = userId;
         this.firstName = firstName;
@@ -96,14 +89,6 @@ public class User {
         return regDate;
     }
 
-    public List<User> getUsers() {
-        return users;
-    }
-
-    public void setUsers(List<User> users) {
-        this.users = users;
-    }
-
     @Override
     public String toString() {
         return "User{" +
@@ -115,7 +100,6 @@ public class User {
                 ", password='" + password + '\'' +
                 ", dateOfBirth=" + dateOfBirth +
                 ", regDate=" + regDate +
-                ", users=" + users +
                 '}';
     }
 }

@@ -28,7 +28,7 @@
                     hibernate.connection.url=jdbc:postgresql://localhost:5432/books
                     hibernate.connection.username=postgres
                     hibernate.connection.password=111
-                    hibernate.dialect=org.hibernate.dialect.HSQLDialect
+                    hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
                     hibernate.show_sql=false
                 </value>
             </property>

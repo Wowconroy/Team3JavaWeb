@@ -3,6 +3,7 @@ package org.teamwork.dao;
 import org.hibernate.Query;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Repository;
 import org.teamwork.model.User;
 
@@ -50,7 +51,7 @@ public class UserDao implements Dao<User>{
 
     public void testQuery(){
         //solve this
-        String hql = "SELECT COUNT(*) FROM user_db";
+        String hql = "SELECT COUNT (*) FROM user_db";
         Query query = getSessionFactory().openSession().createQuery(hql);
         query.uniqueResult();
     }
