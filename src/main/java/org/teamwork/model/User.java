@@ -2,12 +2,17 @@ package org.teamwork.model;
 
 import org.springframework.context.annotation.Bean;
 
+import javax.persistence.Basic;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+@Entity
 public class User {
+    @Id
     private int userId;
     private String firstName;
     private String lastName;
@@ -17,6 +22,7 @@ public class User {
     private LocalDateTime dateOfBirth;
     private final LocalDateTime regDate = LocalDateTime.now();
 
+    @Basic
     private List<User> users = new ArrayList<>();
 
     public User() {}

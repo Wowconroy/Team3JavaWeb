@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Add Book, UserOrder + DAO">
+    <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Add Session Factory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Team3JavaWeb2.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Team3JavaWeb2.0.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/MainTrial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/MainTrial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/delete.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +31,14 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
         <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
@@ -62,13 +65,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Testyfy" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40114942" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MainTrial">
+    <configuration name="MainTrial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.MainTrial" />
+      <module name="Team3JavaWeb2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.teamwork.model.TestUser" />
       <module name="Team3JavaWeb2.0" />
@@ -84,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainTrial" />
         <item itemvalue="Application.TestUser" />
       </list>
     </recent_temporary>
@@ -106,7 +123,8 @@
       <workItem from="1644139470318" duration="6036000" />
       <workItem from="1644180105636" duration="806000" />
       <workItem from="1644180949819" duration="126000" />
-      <workItem from="1644251650666" duration="6104000" />
+      <workItem from="1644251650666" duration="9818000" />
+      <workItem from="1644309753991" duration="4415000" />
     </task>
     <task id="LOCAL-00001" summary="update gitignore">
       <created>1643908080906</created>
@@ -192,7 +210,35 @@
       <option name="project" value="LOCAL" />
       <updated>1644251911236</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add Session Factory">
+      <created>1644264686949</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1644264686949</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add Session Factory">
+      <created>1644268124469</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1644268124469</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add Session Factory">
+      <created>1644268249394</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1644268249394</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add Session Factory">
+      <created>1644268289420</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1644268289420</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +265,7 @@
     <MESSAGE value="Update User &amp; pom, add applicationContext.xml" />
     <MESSAGE value="Add list of dependencies" />
     <MESSAGE value="Add Book, UserOrder + DAO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Book, UserOrder + DAO" />
+    <MESSAGE value="Add Session Factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Session Factory" />
   </component>
 </project>
