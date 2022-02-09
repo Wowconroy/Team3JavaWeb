@@ -1,25 +1,54 @@
 package org.teamwork.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.ManyToMany;
+import org.hibernate.validator.constraints.Email;
+import org.hibernate.validator.constraints.NotEmpty;
+
+import javax.persistence.*;
+import javax.validation.constraints.Size;
 import java.time.LocalDateTime;
 
 @Entity
+@Table(name = "user_db")
 public class User {
+
     @Id
-    private int userId;
+    @GeneratedValue
+    @Column(name = "user_id")
+    private Long userId;
+
+    @Column(name = "first_name")
+    @Size(max = 20, min = 3, message = "{user.name.invalid}")
+    @NotEmpty(message="Please Enter your name")
     private String firstName;
+
+    @Column(name = "last_name")
+    @Size(max = 20, min = 3, message = "{user.name.invalid}")
+    @NotEmpty(message="Please Enter your last name")
     private String lastName;
-    private int roleId;
+
+    @Column(name = "role_id")
+    @NotEmpty(message="Please Enter role id")
+    private long roleId;
+
+    @Column(name = "email")
+    @Email(message = "{user.email.invalid}")
+    @NotEmpty(message="Please Enter your email")
     private String email;
+
+    @Column(name = "password")
+    @Size(max = 20, min = 5, message = "{user.name.invalid}")
+    @NotEmpty(message="Please Enter your password")
     private String password;
+
+    @Column(name = "date_of_birth")
     private LocalDateTime dateOfBirth;
-    private final LocalDateTime regDate = LocalDateTime.now();
+
+    @Column(name = "reg_date")
+    private LocalDateTime regDate;
 
     public User() {}
-    
-    public User(int userId, String firstName, String lastName, int roleId, String email, String password, LocalDateTime dateOfBirth) {
+
+    public User(Long userId, String firstName, String lastName, long roleId, String email, String password, LocalDateTime dateOfBirth, LocalDateTime regDate) {
         this.userId = userId;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -27,13 +56,14 @@ public class User {
         this.email = email;
         this.password = password;
         this.dateOfBirth = dateOfBirth;
+        this.regDate = regDate;
     }
 
-    public int getUserId() {
+    public Long getUserId() {
         return userId;
     }
 
-    public void setUserId(int userId) {
+    public void setUserId(Long userId) {
         this.userId = userId;
     }
 
@@ -53,11 +83,11 @@ public class User {
         this.lastName = lastName;
     }
 
-    public int getRoleId() {
+    public long getRoleId() {
         return roleId;
     }
 
-    public void setRoleId(int roleId) {
+    public void setRoleId(long roleId) {
         this.roleId = roleId;
     }
 
@@ -89,17 +119,7 @@ public class User {
         return regDate;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "userId=" + userId +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", roleId=" + roleId +
-                ", email='" + email + '\'' +
-                ", password='" + password + '\'' +
-                ", dateOfBirth=" + dateOfBirth +
-                ", regDate=" + regDate +
-                '}';
+    public void setRegDate(LocalDateTime regDate) {
+        this.regDate = regDate;
     }
 }

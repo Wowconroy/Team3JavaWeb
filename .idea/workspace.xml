@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Add configuration">
+    <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Update Lesha">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Team3JavaWeb2.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Team3JavaWeb2.0.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/MainTrial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/MainTrial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/MainTrial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/MainTrial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/dao/BookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/dao/BookDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/delete.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +125,7 @@
       <workItem from="1644309753991" duration="4520000" />
       <workItem from="1644322171437" duration="2895000" />
       <workItem from="1644433867435" duration="149000" />
-      <workItem from="1644434183130" duration="1454000" />
+      <workItem from="1644434183130" duration="2304000" />
     </task>
     <task id="LOCAL-00001" summary="update gitignore">
       <created>1643908080906</created>
@@ -261,7 +253,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644434379341</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Update Lesha">
+      <created>1644435699332</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1644435699332</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Update Lesha">
+      <created>1644435720032</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1644435720032</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +297,7 @@
     <MESSAGE value="Add Session Factory" />
     <MESSAGE value="Update Session Factory&#10;+application context" />
     <MESSAGE value="Add configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add configuration" />
+    <MESSAGE value="Update Lesha" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Lesha" />
   </component>
 </project>
