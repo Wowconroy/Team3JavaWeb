@@ -46,14 +46,5 @@ public class UserDao implements Dao<User>{
 
     @Override
     public void delete(User user) {
-
-    }
-
-    public void testQuery(){
-        //solve this
-//        String hql = "SELECT COUNT (*) FROM user_db";
-//        Query query = getSessionFactory().openSession().createQuery(hql);
-//        query.uniqueResult();
-        System.out.println("sss");
     }
 }

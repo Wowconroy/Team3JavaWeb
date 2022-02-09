@@ -122,4 +122,18 @@ public class User {
     public void setRegDate(LocalDateTime regDate) {
         this.regDate = regDate;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "userId=" + userId +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", roleId=" + roleId +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", dateOfBirth=" + dateOfBirth +
+                ", regDate=" + regDate +
+                '}';
+    }
 }
