@@ -5,10 +5,22 @@
 <hibernate-configuration>
     <session-factory>
 
-        <property name="hbm2ddl.auto">update</property>
-        <property name="connection.url">jdbc:postgresql://localhost:5432/books</property>
-        <property name="connection.username">postgres</property>
-        <property name="connection.password">111</property>
+        <property name="hbm2ddl.auto">create</property>
+        <!--        <property name="hbm2ddl.auto">update</property>-->
+        <property name="hibernate.archive.autodetection">class,hbm</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL95Dialect</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/books</property>
+        <property name="hibernate.connection.username">postgres</property>
+        <property name="hibernate.connection.password">111</property>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <!--        <property name="hibernate.connection.pool_size">1</property>-->
+        <property name="show_sql">true</property>
+        <!--        <property name="current_session_context_class">thread</property>-->
+        <property name="hibernate.c3p0.min_size">5</property>
+        <property name="hibernate.c3p0.max_size">20</property>
+        <!--        <property name="hibernate.c3p0.acquire_increment">2</property>-->
+        <property name="hibernate.c3p0.acquire_increment">1800</property>
+        <property name="hibernate.c3p0.max_statements">150</property>
 
     </session-factory>
 </hibernate-configuration>
