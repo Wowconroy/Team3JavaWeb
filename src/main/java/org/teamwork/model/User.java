@@ -8,7 +8,7 @@ import javax.validation.constraints.Size;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "user_db")
+@Table(name = "library")
 public class User {
 
     @Id
