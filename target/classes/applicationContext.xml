@@ -9,13 +9,6 @@
 
     <context:annotation-config/>
 
-    <!--    <bean id="testUser"-->
-    <!--          class="org.teamwork.model.User">-->
-    <!--        <description>-->
-    <!--            Ignore this bean. Was created for testing.-->
-    <!--        </description>-->
-    <!--&lt;!&ndash;        <constructor-arg value="TestUser"/>&ndash;&gt;-->
-    <!--    </bean>-->
     <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
         <property name="configLocation" value="classpath:hibernate.cfg.xml"/>
     </bean>

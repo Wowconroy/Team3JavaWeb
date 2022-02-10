@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="books@localhost" uuid="703cca67-1481-4e3b-ab5e-f8a15cf191ef">
-      <driver-ref>postgresql</driver-ref>
+    <data-source source="LOCAL" name="Library2022" uuid="27029be7-7c33-4efc-993d-f69340bd734a">
+      <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/books</jdbc-url>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://45.84.206.101:3306/u417527816_okko_audit</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="12a58209-9b40-405d-ad29-69093aff9072">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>Hibernate
-
-C:/data/TeamWork/src/main/resources/hibernate.cfg.xml</remarks>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/library</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="postgres@library" uuid="26eb6158-4581-4f75-bf08-6bd2c5913530">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/library</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="enabledTLSProtocols" value="TLSv1,TLSv1.1,TLSv1.2" />
+      </driver-properties>
     </data-source>
   </component>
 </project>

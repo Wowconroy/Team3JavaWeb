@@ -7,13 +7,25 @@
 
         <property name="hbm2ddl.auto">create</property>
         <!--        <property name="hbm2ddl.auto">update</property>-->
+<!--        MySQL Connection-->
         <property name="hibernate.archive.autodetection">class,hbm</property>
-        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL95Dialect</property>
-        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/books</property>
-        <property name="hibernate.connection.username">postgres</property>
-        <property name="hibernate.connection.password">111</property>
-        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <!--        <property name="hibernate.connection.pool_size">1</property>-->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.url">jdbc:mysql://45.84.206.101:3306/u417527816_okko_audit</property>
+        <property name="hibernate.connection.username">u417527816_maks</property>
+        <property name="hibernate.connection.password">Library2022</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+<!--        End of line-->
+
+<!--        PostgreSQL Connection-->
+<!--        <property name="hibernate.archive.autodetection">class,hbm</property>-->
+<!--        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL82Dialect</property>-->
+<!--        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/library</property>-->
+<!--        <property name="hibernate.connection.username">postgres</property>-->
+<!--        <property name="hibernate.connection.password">111</property>-->
+<!--        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>-->
+<!--        End of line-->
+
+                <property name="hibernate.connection.pool_size">1</property>
         <property name="show_sql">true</property>
         <!--        <property name="current_session_context_class">thread</property>-->
         <property name="hibernate.c3p0.min_size">5</property>

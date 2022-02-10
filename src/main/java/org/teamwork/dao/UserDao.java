@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public class UserDao implements Dao<User>{
+public class UserDao implements Dao<User> {
 
 
     private SessionFactory sessionFactory;

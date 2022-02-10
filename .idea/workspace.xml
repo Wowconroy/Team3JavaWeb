@@ -5,7 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Update Lesha">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/AuthorRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/BookAuthor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12a58209-9b40-405d-ad29-69093aff9072.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/26eb6158-4581-4f75-bf08-6bd2c5913530.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/703cca67-1481-4e3b-ab5e-f8a15cf191ef.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/MainTrial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/MainTrial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/dao/BookDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/dao/BookOrderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/model/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/BookOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/model/BookOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/UserOrder.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +71,21 @@
     </option>
   </component>
   <component name="ProjectId" id="24Z36nxoWMlFDUjOokUAVi2jlQ4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DatabaseDriversLRU" value="postgresql&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40114942" />
@@ -126,7 +151,7 @@
       <workItem from="1644438841353" duration="1203000" />
       <workItem from="1644509465345" duration="1842000" />
       <workItem from="1644511804626" duration="9241000" />
-      <workItem from="1644521669850" duration="734000" />
+      <workItem from="1644521669850" duration="376000" />
     </task>
     <task id="LOCAL-00001" summary="update gitignore">
       <created>1643908080906</created>
@@ -338,14 +363,7 @@
       <option name="project" value="LOCAL" />
       <updated>1644517897520</updated>
     </task>
-    <task id="LOCAL-00031" summary="Update Lesha">
-      <created>1644522209697</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1644522209698</updated>
-    </task>
-    <option name="localTasksCounter" value="32" />
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

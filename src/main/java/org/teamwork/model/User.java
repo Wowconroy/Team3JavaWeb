@@ -6,14 +6,15 @@ import org.hibernate.validator.constraints.NotEmpty;
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Entity
-@Table(name = "user_db")
+@Table(name = "user")
 public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "user_id", nullable = false)
+    @Column(name = "user_id")
     private Long userId;
 
     @Column(name = "first_name")
@@ -28,6 +29,7 @@ public class User {
 
     @ManyToOne
     @JoinColumn(name = "role_id", referencedColumnName = "role_id")
+    @NotEmpty(message="Please Enter role id")
     private UserRole userRole;
 
     @Column(name = "email")
@@ -43,17 +45,18 @@ public class User {
     @Column(name = "date_of_birth")
     private LocalDateTime dateOfBirth;
 
-    @Column(name = "reg_date")
+    @Column(name = "registration_date")
     private LocalDateTime regDate;
 
     public User() {
         super();
     }
 
-    public User(String firstName, String lastName, long roleId, String email, String password, LocalDateTime dateOfBirth, LocalDateTime regDate) {
+    public User(String firstName, String lastName, UserRole userRole, String email, String password, LocalDateTime dateOfBirth, LocalDateTime regDate) {
         super();
         this.firstName = firstName;
         this.lastName = lastName;
+        this.userRole = userRole;
         this.email = email;
         this.password = password;
         this.dateOfBirth = dateOfBirth;
@@ -82,6 +85,14 @@ public class User {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public UserRole userRole() {
+        return userRole;
+    }
+
+    public void setUserRole(UserRole userRole) {
+        this.userRole = userRole;
     }
 
     public String getEmail() {
@@ -116,20 +127,13 @@ public class User {
         this.regDate = regDate;
     }
 
-    public UserRole getUserRole() {
-        return userRole;
-    }
-
-    public void setUserRole(UserRole userRole) {
-        this.userRole = userRole;
-    }
-
     @Override
     public String toString() {
         return "User{" +
                 "userId=" + userId +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
+                ", roleId=" + userRole +
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
                 ", dateOfBirth=" + dateOfBirth +
