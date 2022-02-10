@@ -6,6 +6,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Entity
 @Table(name = "user_db")
@@ -45,6 +46,8 @@ public class User {
 
     @Column(name = "reg_date")
     private LocalDateTime regDate;
+
+    List <> name
 
     public User() {}
 

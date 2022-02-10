@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import java.util.Objects;
 
 @Entity
-@Table
+@Table(name = "books")
 public class BookOrder {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
