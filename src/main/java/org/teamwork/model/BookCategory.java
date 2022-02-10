@@ -17,7 +17,7 @@ public class BookCategory {
     private Category category;
 
     @Column(name = "last_update")
-    private LocalDateTime returnDate;
+    private LocalDateTime lastUpdate;
 
     public Book getBook() {
         return book;
@@ -36,10 +36,10 @@ public class BookCategory {
     }
 
     public LocalDateTime getReturnDate() {
-        return returnDate;
+        return lastUpdate;
     }
 
     public void setReturnDate(LocalDateTime returnDate) {
-        this.returnDate = returnDate;
+        this.lastUpdate = returnDate;
     }
 }

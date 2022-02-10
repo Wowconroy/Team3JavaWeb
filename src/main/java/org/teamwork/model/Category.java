@@ -20,7 +20,7 @@ public class Category {
     private String name;
 
     @Column(name = "last_update")
-    private LocalDateTime returnDate;
+    private LocalDateTime lastUpdate;
 
     public Long getCategoryId() {
         return categoryId;
@@ -39,10 +39,10 @@ public class Category {
     }
 
     public LocalDateTime getReturnDate() {
-        return returnDate;
+        return lastUpdate;
     }
 
     public void setReturnDate(LocalDateTime returnDate) {
-        this.returnDate = returnDate;
+        this.lastUpdate = returnDate;
     }
 }

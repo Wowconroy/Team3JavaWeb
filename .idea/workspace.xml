@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Update Lesha">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/model/UserOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/BookCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/model/BookCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/BookCategory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +125,7 @@
       <workItem from="1644434183130" duration="3270000" />
       <workItem from="1644438841353" duration="1203000" />
       <workItem from="1644509465345" duration="1842000" />
-      <workItem from="1644511804626" duration="5479000" />
+      <workItem from="1644511804626" duration="5839000" />
     </task>
     <task id="LOCAL-00001" summary="update gitignore">
       <created>1643908080906</created>
@@ -325,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644516790527</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Update Lesha">
+      <created>1644517723784</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1644517723784</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
