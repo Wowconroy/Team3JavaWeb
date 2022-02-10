@@ -5,18 +5,19 @@ import java.time.LocalDateTime;
 import java.util.Objects;
 
 @Entity
-@Table(name = "books")
+@Table(name = "order_db")
 public class BookOrder {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int orderId;
+    @Column(name = "order_id")
+    private Long orderId;
 
     @ManyToOne
-    @JoinColumn(name = "book_id", referencedColumnName = "id")
+    @JoinColumn(name = "book_id", referencedColumnName = "book_id")
     private Book book;
 
     @ManyToOne
-    @JoinColumn(name = "user_id", referencedColumnName = "id")
+    @JoinColumn(name = "user_id", referencedColumnName = "user_id")
     private User user;
 
     @Column(name = "start_date")
@@ -25,11 +26,11 @@ public class BookOrder {
     @Column(name = "return_date")
     private LocalDateTime returnDate;
 
-    public int getOrderId() {
+    public Long getOrderId() {
         return orderId;
     }
 
-    public void setOrderId(int orderId) {
+    public void setOrderId(Long orderId) {
         this.orderId = orderId;
     }
 
@@ -63,19 +64,6 @@ public class BookOrder {
 
     public void setReturnDate(LocalDateTime returnDate) {
         this.returnDate = returnDate;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        BookOrder bookOrder = (BookOrder) o;
-        return orderId == bookOrder.orderId && Objects.equals(book, bookOrder.book) && Objects.equals(user, bookOrder.user) && Objects.equals(startDate, bookOrder.startDate) && Objects.equals(returnDate, bookOrder.returnDate);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(orderId, book, user, startDate, returnDate);
     }
 
     @Override

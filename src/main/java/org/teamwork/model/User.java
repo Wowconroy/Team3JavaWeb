@@ -6,7 +6,6 @@ import org.hibernate.validator.constraints.NotEmpty;
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.time.LocalDateTime;
-import java.util.List;
 
 @Entity
 @Table(name = "user_db")
@@ -31,6 +30,10 @@ public class User {
     @NotEmpty(message="Please Enter role id")
     private long roleId;
 
+    @ManyToOne
+    @JoinColumn(name = "role_id", referencedColumnName = "role_id")
+    UserRole userRole;
+
     @Column(name = "email")
     @Email(message = "{user.email.invalid}")
     @NotEmpty(message="Please Enter your email")
@@ -46,8 +49,6 @@ public class User {
 
     @Column(name = "reg_date")
     private LocalDateTime regDate;
-
-    List <> name
 
     public User() {}
 
@@ -124,6 +125,14 @@ public class User {
 
     public void setRegDate(LocalDateTime regDate) {
         this.regDate = regDate;
+    }
+
+    public UserRole getUserRole() {
+        return userRole;
+    }
+
+    public void setUserRole(UserRole userRole) {
+        this.userRole = userRole;
     }
 
     @Override
