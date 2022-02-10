@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Update Lesha">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Team3JavaWeb2.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Team3JavaWeb2.0.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +126,7 @@
       <workItem from="1644433867435" duration="149000" />
       <workItem from="1644434183130" duration="3270000" />
       <workItem from="1644438841353" duration="1203000" />
-      <workItem from="1644509465345" duration="881000" />
+      <workItem from="1644509465345" duration="1504000" />
     </task>
     <task id="LOCAL-00001" summary="update gitignore">
       <created>1643908080906</created>
@@ -292,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644437405748</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Update Lesha">
+      <created>1644510600862</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1644510600862</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,23 +1,39 @@
 package org.teamwork.model;
 
+import org.hibernate.validator.constraints.NotEmpty;
+
 import javax.persistence.*;
+import javax.validation.constraints.Size;
 import java.util.Objects;
 
 @Entity
-@Table
+@Table(name = "books")
 public class Book {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int bookId;
+    @Column(name = "book_id")
+    private Long bookId;
+
+    @Column(name = "title")
+    @Size(max = 20, min = 3, message = "{book.title.invalid}")
+    @NotEmpty(message="Please Enter book title")
     private String title;
+
+    @Column(name = "description")
     private String description;
+
+    @Column(name = "release_year")
+    @Size(min = 4, max = 4)
     private int releaseYear;
+
+    @Column(name = "rate")
     private double rate;
 
     public Book() {
     }
 
-    public Book(int bookId, String title, String description, int releaseYear, double rate) {
+    public Book(Long bookId, String title, String description, int releaseYear, double rate) {
         this.bookId = bookId;
         this.title = title;
         this.description = description;
@@ -25,11 +41,11 @@ public class Book {
         this.rate = rate;
     }
 
-    public int getBookId() {
+    public Long getBookId() {
         return bookId;
     }
 
-    public void setBookId(int bookId) {
+    public void setBookId(Long bookId) {
         this.bookId = bookId;
     }
 
@@ -63,19 +79,6 @@ public class Book {
 
     public void setRate(double rate) {
         this.rate = rate;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Book book = (Book) o;
-        return bookId == book.bookId && releaseYear == book.releaseYear && Double.compare(book.rate, rate) == 0 && Objects.equals(title, book.title) && Objects.equals(description, book.description);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(bookId, title, description, releaseYear, rate);
     }
 
     @Override
