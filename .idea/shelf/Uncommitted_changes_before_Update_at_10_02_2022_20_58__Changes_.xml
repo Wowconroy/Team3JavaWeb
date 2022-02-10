@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Update_at_10_02_2022_20_58_[Changes]" date="1644519541771" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_20_58_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 10.02.2022 20:58 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/org/teamwork/model/User.class" />
+    <option name="AFTER_PATH" value="target/classes/org/teamwork/model/User.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_20_58_[Changes]/User.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/org/MainTrial.class" />
+    <option name="AFTER_PATH" value="target/classes/org/MainTrial.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_20_58_[Changes]/MainTrial.class" />
+  </binary>
+</changelist>
