@@ -46,10 +46,12 @@ public class User {
     @Column(name = "reg_date")
     private LocalDateTime regDate;
 
-    public User() {}
+    public User() {
+        super();
+    }
 
-    public User(Long userId, String firstName, String lastName, long roleId, String email, String password, LocalDateTime dateOfBirth, LocalDateTime regDate) {
-        this.userId = userId;
+    public User(String firstName, String lastName, long roleId, String email, String password, LocalDateTime dateOfBirth, LocalDateTime regDate) {
+        super();
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
