@@ -13,7 +13,7 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "user_id")
+    @Column(name = "user_id", nullable = false)
     private Long userId;
 
     @Column(name = "first_name")
@@ -26,13 +26,9 @@ public class User {
     @NotEmpty(message="Please Enter your last name")
     private String lastName;
 
-    @Column(name = "role_id")
-    @NotEmpty(message="Please Enter role id")
-    private long roleId;
-
     @ManyToOne
     @JoinColumn(name = "role_id", referencedColumnName = "role_id")
-    UserRole userRole;
+    private UserRole userRole;
 
     @Column(name = "email")
     @Email(message = "{user.email.invalid}")
@@ -56,7 +52,6 @@ public class User {
         this.userId = userId;
         this.firstName = firstName;
         this.lastName = lastName;
-        this.roleId = roleId;
         this.email = email;
         this.password = password;
         this.dateOfBirth = dateOfBirth;
@@ -85,14 +80,6 @@ public class User {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
-    }
-
-    public long getRoleId() {
-        return roleId;
-    }
-
-    public void setRoleId(long roleId) {
-        this.roleId = roleId;
     }
 
     public String getEmail() {
@@ -141,7 +128,6 @@ public class User {
                 "userId=" + userId +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", roleId=" + roleId +
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
                 ", dateOfBirth=" + dateOfBirth +

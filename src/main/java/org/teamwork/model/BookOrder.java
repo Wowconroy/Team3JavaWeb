@@ -9,7 +9,7 @@ import java.util.Objects;
 public class BookOrder {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "order_id")
+    @Column(name = "order_id", nullable = false)
     private Long orderId;
 
     @ManyToOne
