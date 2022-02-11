@@ -6,7 +6,6 @@ import org.hibernate.validator.constraints.NotEmpty;
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.time.LocalDateTime;
-import java.util.List;
 
 @Entity
 @Table(name = "user_db")
@@ -45,23 +44,9 @@ public class User {
     @Column(name = "date_of_birth")
     private LocalDateTime dateOfBirth;
 
-    @Column(name = "registration_date")
+    @Column(name = "reg_date")
     private LocalDateTime regDate;
 
-    public User() {
-        super();
-    }
-
-    public User(String firstName, String lastName, UserRole userRole, String email, String password, LocalDateTime dateOfBirth, LocalDateTime regDate) {
-        super();
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.userRole = userRole;
-        this.email = email;
-        this.password = password;
-        this.dateOfBirth = dateOfBirth;
-        this.regDate = regDate;
-    }
 
     public Long getUserId() {
         return userId;
