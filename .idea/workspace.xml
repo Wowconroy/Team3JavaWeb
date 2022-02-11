@@ -10,7 +10,101 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Update Lesha">
-      <change beforePath="$PROJECT_DIR$/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5d273f65-966b-47ef-8790-deb3b3c7f015.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5d273f65-966b-47ef-8790-deb3b3c7f015.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5d273f65-966b-47ef-8790-deb3b3c7f015/storage_v2/_src_/database/library.uyToCQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5d273f65-966b-47ef-8790-deb3b3c7f015/storage_v2/_src_/database/library.uyToCQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/getCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/MainTrial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/config/AppInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/config/HibernateConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/config/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/dao/Dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/Author.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/AuthorRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/BookAuthor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/BookCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/BookOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/Bookkeeping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/UserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/byte-buddy-1.12.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/checker-qual-3.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/commons-dbcp2-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/commons-pool2-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/hibernate-commons-annotations-5.1.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/hibernate-core-5.6.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/hibernate-validator-5.4.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/jandex-2.4.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/jboss-logging-3.4.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/logback-classic-1.2.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/logback-core-1.2.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/lombok-1.18.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/mysql-connector-java-8.0.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/postgresql-42.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/slf4j-api-1.7.35.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/spring-aop-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/spring-beans-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/spring-context-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/spring-core-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/spring-expression-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/spring-jcl-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/spring-jdbc-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/spring-orm-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/spring-tx-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/spring-web-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/spring-webmvc-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/validation-api-1.0.0.GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/views/users.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/getCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/MainTrial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/config/AppInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/config/HibernateConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/config/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/dao/Dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/Author.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/AuthorRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/BookAuthor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/BookCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/BookOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/Bookkeeping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/UserRole.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,7 +466,7 @@
       <workItem from="1644560903260" duration="3386000" />
       <workItem from="1644570704933" duration="8764000" />
       <workItem from="1644583086167" duration="984000" />
-      <workItem from="1644598768375" duration="6959000" />
+      <workItem from="1644598768375" duration="7475000" />
     </task>
     <task id="LOCAL-00001" summary="update gitignore">
       <created>1643908080906</created>
@@ -682,7 +776,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644605439263</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Update Lesha">
+      <created>1644605793406</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1644605793406</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

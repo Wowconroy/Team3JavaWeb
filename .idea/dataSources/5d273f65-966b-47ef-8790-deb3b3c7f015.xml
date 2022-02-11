@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.31">
     <root id="1">
       <DateStyle>dmy</DateStyle>
-      <IntrospectionStateNumber>1214</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1231</IntrospectionStateNumber>
       <ServerVersion>14.1</ServerVersion>
       <StartupTime>1644438783</StartupTime>
       <TimeZones>true ACDT
@@ -816,10 +816,8 @@ false Zulu
 13388||10|C|G
 13388||-9223372036854775808|U|G
 13388||10|U|G</Grants>
-      <IntrospectionStateNumber>1215</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1232</IntrospectionStateNumber>
       <ObjectId>49162</ObjectId>
-      <Relations>sequence|table|49163|49164|1
-</Relations>
       <OwnerName>postgres</OwnerName>
     </database>
     <database id="7" parent="1" name="postgres">
@@ -4248,121 +4246,10 @@ false Zulu
     <schema id="267" parent="6" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>1215</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1232</IntrospectionStateNumber>
       <ObjectId>2200</ObjectId>
       <StateNumber>527</StateNumber>
       <OwnerName>postgres</OwnerName>
     </schema>
-    <sequence id="268" parent="267" name="user_id_id_seq">
-      <DataType>integer|0s</DataType>
-      <ObjectId>49163</ObjectId>
-      <StateNumber>1198</StateNumber>
-      <OwnerName>postgres</OwnerName>
-    </sequence>
-    <table id="269" parent="267" name="library">
-      <ObjectId>49186</ObjectId>
-      <StateNumber>1212</StateNumber>
-      <AccessMethodId>2</AccessMethodId>
-      <OwnerName>postgres</OwnerName>
-    </table>
-    <table id="270" parent="267" name="user_id">
-      <ObjectId>49164</ObjectId>
-      <StateNumber>1198</StateNumber>
-      <AccessMethodId>2</AccessMethodId>
-      <OwnerName>postgres</OwnerName>
-    </table>
-    <column id="271" parent="269" name="book_id">
-      <DataType>bigint|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StateNumber>1212</StateNumber>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="272" parent="269" name="title">
-      <DataType>varchar(255)|0s</DataType>
-      <Position>2</Position>
-      <StateNumber>1212</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="273" parent="269" name="description">
-      <DataType>varchar(255)|0s</DataType>
-      <Position>3</Position>
-      <StateNumber>1212</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="274" parent="269" name="release_year">
-      <DataType>integer|0s</DataType>
-      <Position>4</Position>
-      <StateNumber>1212</StateNumber>
-      <TypeId>23</TypeId>
-    </column>
-    <column id="275" parent="269" name="rate">
-      <DataType>double precision|0s</DataType>
-      <Position>5</Position>
-      <StateNumber>1212</StateNumber>
-      <TypeId>701</TypeId>
-    </column>
-    <index id="276" parent="269" name="pk_books">
-      <ClassIds>3124</ClassIds>
-      <ColNames>book_id</ColNames>
-      <CollationIds>0</CollationIds>
-      <ObjectId>49191</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>1212</StateNumber>
-      <Unique>1</Unique>
-      <AccessMethodId>403</AccessMethodId>
-    </index>
-    <key id="277" parent="269" name="pk_books">
-      <ColNames>book_id</ColNames>
-      <ObjectId>49192</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>1212</StateNumber>
-      <UnderlyingIndexId>49191</UnderlyingIndexId>
-    </key>
-    <column id="278" parent="270" name="id">
-      <DataType>integer|0s</DataType>
-      <DefaultExpression>nextval(&apos;user_id_id_seq&apos;::regclass)</DefaultExpression>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StateNumber>1198</StateNumber>
-      <TypeId>23</TypeId>
-    </column>
-    <column id="279" parent="270" name="email">
-      <DataType>varchar(255)|0s</DataType>
-      <Position>2</Position>
-      <StateNumber>1198</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="280" parent="270" name="first_name">
-      <DataType>varchar(255)|0s</DataType>
-      <Position>3</Position>
-      <StateNumber>1198</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="281" parent="270" name="last_name">
-      <DataType>varchar(255)|0s</DataType>
-      <Position>4</Position>
-      <StateNumber>1198</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <index id="282" parent="270" name="user_id_pkey">
-      <ClassIds>1978</ClassIds>
-      <ColNames>id</ColNames>
-      <CollationIds>0</CollationIds>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>49170</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>1198</StateNumber>
-      <Unique>1</Unique>
-      <AccessMethodId>403</AccessMethodId>
-    </index>
-    <key id="283" parent="270" name="user_id_pkey">
-      <ColNames>id</ColNames>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>49171</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>1198</StateNumber>
-      <UnderlyingIndexId>49170</UnderlyingIndexId>
-    </key>
   </database-model>
 </dataSource>
