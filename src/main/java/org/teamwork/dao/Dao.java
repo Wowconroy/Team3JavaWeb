@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Optional;
 
 public interface Dao <T>{
-    T getById(int id);
+    T getById(Long id);
 
     List<T> getAll();
 
