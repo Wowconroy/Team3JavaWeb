@@ -1,17 +1,16 @@
 USE test;
 
-DROP TABLE IF EXISTS library;
-CREATE TABLE library
+DROP TABLE IF EXISTS books;
+CREATE TABLE books
 (
-    book_id      BIGINT NOT NULL,
+    book_id SERIAL PRIMARY KEY,
     title        VARCHAR(255),
     description  VARCHAR(255),
     release_year INTEGER,
-    rate         DOUBLE PRECISION,
-    CONSTRAINT pk_books PRIMARY KEY (book_id)
+    rate         DOUBLE PRECISION
 );
 
-INSERT INTO library (title,description,release_year, rate)
+INSERT INTO books (title,description,release_year, rate)
 VALUES
   ('To Kill a Mockingbird', 'Detective and Mystery', 1960, 3),
   ('Pride and Prejudice', 'It is a truth universally acknowledged that when most people think of Jane Austen they think of this charming and humorous story of love, difficult families and the tricky task of finding a handsome husband with a good fortune.'
