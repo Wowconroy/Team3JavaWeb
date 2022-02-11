@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Update Lesha">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Update Lesha" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -377,14 +375,7 @@
       <workItem from="1644560903260" duration="3386000" />
       <workItem from="1644570704933" duration="8764000" />
       <workItem from="1644583086167" duration="984000" />
-      <workItem from="1644598768375" duration="8841000" />
-    </task>
-    <task id="LOCAL-00002" summary="need to delete &quot;delete.txt&quot; after updating">
-      <created>1643908286241</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1643908286241</updated>
+      <workItem from="1644598768375" duration="9566000" />
     </task>
     <task id="LOCAL-00003" summary="update workspace.xml">
       <created>1644087508687</created>
@@ -722,7 +713,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644607356327</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Update Lesha">
+      <created>1644607739260</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1644607739260</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
