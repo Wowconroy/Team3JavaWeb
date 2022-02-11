@@ -8,7 +8,7 @@ import java.util.List;
 public class UserRole {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "role_id", nullable = false)
     private Long id;
 
