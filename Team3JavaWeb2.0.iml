@@ -5,7 +5,7 @@
       <configuration>
         <datasource-map>
           <unit-entry name="getSessionFactory" />
-          <unit-entry name="hibernate.cfg.xml" value="26eb6158-4581-4f75-bf08-6bd2c5913530" />
+          <unit-entry name="hibernate.cfg.xml" value="5d273f65-966b-47ef-8790-deb3b3c7f015" />
         </datasource-map>
         <naming-strategy-map />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate.cfg.xml" />
