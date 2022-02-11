@@ -16,7 +16,7 @@ public class UserRole {
     private String roleName;
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "userRole")
-    private List<User> users;
+    private List<User> usersRole;
 
     public Long getId() {
         return id;
