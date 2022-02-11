@@ -19,8 +19,8 @@ public class Author {
     @NotEmpty(message="Please Enter your name")
     private String firstName;
 
-    @ManyToOne
-    @JoinColumn(name = "author_role_id", referencedColumnName = "author_role_id")
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "author_role_id")
     private AuthorRole authorRole;
 
     @Column(name = "last_name")

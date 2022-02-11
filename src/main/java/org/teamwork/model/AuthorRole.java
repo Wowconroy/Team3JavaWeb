@@ -1,6 +1,7 @@
 package org.teamwork.model;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "author_role")
@@ -12,6 +13,9 @@ public class AuthorRole {
 
     @Column(name = "role_name")
     private String roleName;
+
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "authorRole")
+    private List<Author> roles;
 
     public Long getId() {
         return id;
