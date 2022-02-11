@@ -10,9 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Update Lesha">
-      <change afterPath="$PROJECT_DIR$/users.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/books.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -379,7 +377,7 @@
       <workItem from="1644560903260" duration="3386000" />
       <workItem from="1644570704933" duration="8764000" />
       <workItem from="1644583086167" duration="984000" />
-      <workItem from="1644598768375" duration="8225000" />
+      <workItem from="1644598768375" duration="8505000" />
     </task>
     <task id="LOCAL-00001" summary="update gitignore">
       <created>1643908080906</created>
@@ -710,7 +708,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644606805606</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Update Lesha">
+      <created>1644607086512</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1644607086512</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Update Lesha">
+      <created>1644607230888</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1644607230888</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
