@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Update Lesha">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -377,14 +377,7 @@
       <workItem from="1644560903260" duration="3386000" />
       <workItem from="1644570704933" duration="8764000" />
       <workItem from="1644583086167" duration="984000" />
-      <workItem from="1644598768375" duration="8505000" />
-    </task>
-    <task id="LOCAL-00001" summary="update gitignore">
-      <created>1643908080906</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1643908080906</updated>
+      <workItem from="1644598768375" duration="8841000" />
     </task>
     <task id="LOCAL-00002" summary="need to delete &quot;delete.txt&quot; after updating">
       <created>1643908286241</created>
@@ -722,7 +715,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644607230888</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Update Lesha">
+      <created>1644607356326</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1644607356327</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
