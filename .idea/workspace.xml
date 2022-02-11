@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Update Lesha">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/AuthorRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/BookAuthor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12a58209-9b40-405d-ad29-69093aff9072.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/26eb6158-4581-4f75-bf08-6bd2c5913530.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/703cca67-1481-4e3b-ab5e-f8a15cf191ef.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/MainTrial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/MainTrial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/dao/BookDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/dao/BookOrderDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/model/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/BookOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/model/BookOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/UserOrder.class" beforeDir="false" />
-    </list>
+    <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Update Lesha" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
