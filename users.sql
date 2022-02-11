@@ -3,14 +3,14 @@ USE test;
 DROP TABLE IF EXISTS user_db;
 CREATE TABLE user_db
 (
-    user_id       BIGINT SERIAL PRIMARY KEY ,
+    user_id       SERIAL PRIMARY KEY,
     first_name    VARCHAR(255),
     last_name     VARCHAR(255),
     role_id       BIGINT,
     email         VARCHAR(255),
     password      VARCHAR(255),
     date_of_birth TIMESTAMP WITHOUT TIME ZONE,
-    reg_date      TIMESTAMP WITHOUT TIME ZONE,
+    reg_date      TIMESTAMP WITHOUT TIME ZONE
 );
 
 ALTER TABLE user_db
