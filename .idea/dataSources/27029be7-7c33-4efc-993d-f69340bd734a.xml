@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Library2022">
+  <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.31">
+    <root id="1">
+      <DefaultCasing>exact</DefaultCasing>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <ServerVersion>10.5.13</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="information_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="3" parent="1" name="u417527816_okko_audit">
+      <Collation>utf8mb4_unicode_ci</Collation>
+      <Current>1</Current>
+    </schema>
+  </database-model>
+</dataSource>
