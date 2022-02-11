@@ -28,7 +28,7 @@ public class User {
     private String lastName;
 
     @ManyToOne
-    @JoinColumn(name = "role_id", referencedColumnName = "role_id")
+    @JoinColumn(name = "role_id")
     @NotEmpty(message="Please Enter role id")
     private UserRole userRole;
 

@@ -10,9 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Update Lesha">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5d273f65-966b-47ef-8790-deb3b3c7f015.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5d273f65-966b-47ef-8790-deb3b3c7f015.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5d273f65-966b-47ef-8790-deb3b3c7f015/storage_v2/_src_/database/library.uyToCQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5d273f65-966b-47ef-8790-deb3b3c7f015/storage_v2/_src_/database/library.uyToCQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/model/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/model/AuthorRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/AuthorRole.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -369,7 +370,7 @@
       <workItem from="1644511804626" duration="9241000" />
       <workItem from="1644521669850" duration="376000" />
       <workItem from="1644560903260" duration="3386000" />
-      <workItem from="1644570704933" duration="5576000" />
+      <workItem from="1644570704933" duration="6919000" />
     </task>
     <task id="LOCAL-00001" summary="update gitignore">
       <created>1643908080906</created>
@@ -637,7 +638,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644573308902</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Update Lesha">
+      <created>1644576449268</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1644576449268</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
