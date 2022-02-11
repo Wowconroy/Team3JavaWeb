@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class UserController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    public ModelAndView allFilms() {
+    public ModelAndView allUsers() {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("users");
         return modelAndView;
