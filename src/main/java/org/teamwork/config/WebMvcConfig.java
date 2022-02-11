@@ -14,7 +14,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = { "org.teamwork"})
+@ComponentScan(basePackages = "org.teamwork")
 public class WebMvcConfig implements WebMvcConfigurer {
 
     @Bean
