@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.31">
     <root id="1">
       <DateStyle>dmy</DateStyle>
-      <IntrospectionStateNumber>1231</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1238</IntrospectionStateNumber>
       <ServerVersion>14.1</ServerVersion>
       <StartupTime>1644438783</StartupTime>
       <TimeZones>true ACDT
@@ -816,8 +816,10 @@ false Zulu
 13388||10|C|G
 13388||-9223372036854775808|U|G
 13388||10|U|G</Grants>
-      <IntrospectionStateNumber>1232</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1239</IntrospectionStateNumber>
       <ObjectId>49162</ObjectId>
+      <Relations>sequence|table|49202|49203|1
+</Relations>
       <OwnerName>postgres</OwnerName>
     </database>
     <database id="7" parent="1" name="postgres">
@@ -4246,10 +4248,91 @@ false Zulu
     <schema id="267" parent="6" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>1232</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1239</IntrospectionStateNumber>
       <ObjectId>2200</ObjectId>
       <StateNumber>527</StateNumber>
       <OwnerName>postgres</OwnerName>
     </schema>
+    <sequence id="268" parent="267" name="user_db_user_id_seq">
+      <DataType>integer|0s</DataType>
+      <ObjectId>49202</ObjectId>
+      <StateNumber>1236</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <table id="269" parent="267" name="user_db">
+      <ObjectId>49203</ObjectId>
+      <StateNumber>1236</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <column id="270" parent="269" name="user_id">
+      <DataType>integer|0s</DataType>
+      <DefaultExpression>nextval(&apos;user_db_user_id_seq&apos;::regclass)</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>1236</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="271" parent="269" name="first_name">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>2</Position>
+      <StateNumber>1236</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="272" parent="269" name="last_name">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>3</Position>
+      <StateNumber>1236</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="273" parent="269" name="role_id">
+      <DataType>bigint|0s</DataType>
+      <Position>4</Position>
+      <StateNumber>1236</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="274" parent="269" name="email">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>5</Position>
+      <StateNumber>1236</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="275" parent="269" name="password">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>6</Position>
+      <StateNumber>1236</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="276" parent="269" name="date_of_birth">
+      <DataType>timestamp|0s</DataType>
+      <Position>7</Position>
+      <StateNumber>1236</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="277" parent="269" name="reg_date">
+      <DataType>timestamp|0s</DataType>
+      <Position>8</Position>
+      <StateNumber>1236</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="278" parent="269" name="user_db_pkey">
+      <ClassIds>1978</ClassIds>
+      <ColNames>user_id</ColNames>
+      <CollationIds>0</CollationIds>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>49209</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>1236</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="279" parent="269" name="user_db_pkey">
+      <ColNames>user_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>49210</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>1236</StateNumber>
+      <UnderlyingIndexId>49209</UnderlyingIndexId>
+    </key>
   </database-model>
 </dataSource>
