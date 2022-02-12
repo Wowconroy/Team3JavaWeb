@@ -5,6 +5,7 @@ import java.util.List;
 public interface UserDao<T>{
     T getById(Long id);
 
+    @SuppressWarnings("unchecked")
     List<T> getAll();
 
     void create(T t);
