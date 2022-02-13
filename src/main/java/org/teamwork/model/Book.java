@@ -1,12 +1,13 @@
 package org.teamwork.model;
 
+import lombok.NoArgsConstructor;
 import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.persistence.*;
 import javax.validation.constraints.Size;
-import java.util.Objects;
 
 @Entity
+@NoArgsConstructor
 @Table(name = "books")
 public class Book {
 
@@ -17,7 +18,6 @@ public class Book {
 
     @Column(name = "title")
     @Size(max = 20, min = 3, message = "{book.title.invalid}")
-    @NotEmpty(message="Please Enter book title")
     private String title;
 
     @Column(name = "description")
@@ -29,17 +29,6 @@ public class Book {
 
     @Column(name = "rate")
     private double rate;
-
-    public Book() {
-    }
-
-    public Book(Long bookId, String title, String description, int releaseYear, double rate) {
-        this.bookId = bookId;
-        this.title = title;
-        this.description = description;
-        this.releaseYear = releaseYear;
-        this.rate = rate;
-    }
 
     public Long getBookId() {
         return bookId;
@@ -79,17 +68,6 @@ public class Book {
 
     public void setRate(double rate) {
         this.rate = rate;
-    }
-
-    @Override
-    public String toString() {
-        return "Book{" +
-                "bookId=" + bookId +
-                ", title='" + title + '\'' +
-                ", description='" + description + '\'' +
-                ", releaseYear=" + releaseYear +
-                ", rate=" + rate +
-                '}';
     }
 
 }

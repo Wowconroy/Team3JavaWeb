@@ -1,10 +1,12 @@
 package org.teamwork.model;
 
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 import java.time.LocalDateTime;
-import java.util.Objects;
 
 @Entity
+@NoArgsConstructor
 @Table(name = "order_db")
 public class BookOrder {
     @Id
@@ -64,16 +66,5 @@ public class BookOrder {
 
     public void setReturnDate(LocalDateTime returnDate) {
         this.returnDate = returnDate;
-    }
-
-    @Override
-    public String toString() {
-        return "BookOrder{" +
-                "orderId=" + orderId +
-                ", book=" + book +
-                ", user=" + user +
-                ", startDate=" + startDate +
-                ", returnDate=" + returnDate +
-                '}';
     }
 }

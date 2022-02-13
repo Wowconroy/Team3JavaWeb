@@ -1,9 +1,12 @@
 package org.teamwork.model;
 
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
+@NoArgsConstructor
 @Table(name = "book_author")
 public class BookAuthor {
     @Id

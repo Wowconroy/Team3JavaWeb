@@ -1,9 +1,11 @@
 package org.teamwork.model;
 
+import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import java.util.List;
 
 @Entity
+@NoArgsConstructor
 @Table(name = "role")
 public class UserRole {
 
@@ -32,13 +34,5 @@ public class UserRole {
 
     public void setRoleName(String roleName) {
         this.roleName = roleName;
-    }
-
-    @Override
-    public String toString() {
-        return "UserRole{" +
-                "id=" + id +
-                ", roleName='" + roleName + '\'' +
-                '}';
     }
 }

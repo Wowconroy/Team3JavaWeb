@@ -1,11 +1,11 @@
 package org.teamwork.model;
 
-import org.hibernate.validator.constraints.NotEmpty;
-
+import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 
 @Entity
+@NoArgsConstructor
 @Table(name = "author")
 public class Author {
 
@@ -16,7 +16,6 @@ public class Author {
 
     @Column(name = "first_name")
     @Size(max = 20, min = 3, message = "{user.name.invalid}")
-    @NotEmpty(message="Please Enter your name")
     private String firstName;
 
     @ManyToOne(fetch = FetchType.LAZY)
@@ -25,17 +24,7 @@ public class Author {
 
     @Column(name = "last_name")
     @Size(max = 20, min = 3, message = "{user.name.invalid}")
-    @NotEmpty(message="Please Enter your last name")
     private String lastName;
-
-    public Author(){super();}
-
-    public Author(String firstName, String lastName, AuthorRole authorRole){
-        super();
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.authorRole = authorRole;
-    }
 
     public Long getAuthorId() {
         return authorId;

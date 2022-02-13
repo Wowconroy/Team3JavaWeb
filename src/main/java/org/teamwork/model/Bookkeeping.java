@@ -1,9 +1,11 @@
 package org.teamwork.model;
 
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
-import javax.validation.constraints.Size;
 
 @Entity
+@NoArgsConstructor
 @Table(name = "bookkeeping")
 public class Bookkeeping {
 
@@ -69,15 +71,5 @@ public class Bookkeeping {
     }
     public void setRemain(long remain) {
         this.remain = remain;
-    }
-
-    @Override
-    public String toString() {
-        return "Bookkeeping{" + "regId=" + regId +
-                "actId=" + action +
-                "total_quantity=" + totalQuantity +
-                "in_reading=" + inReading +
-                "remain=" + remain +
-                "}";
     }
 }

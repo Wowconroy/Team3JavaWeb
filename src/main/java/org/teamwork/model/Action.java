@@ -1,8 +1,11 @@
 package org.teamwork.model;
 
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 
 @Entity
+@NoArgsConstructor
 @Table(name = "action")
 public class Action {
     @Id
@@ -10,7 +13,7 @@ public class Action {
     @Column(name = "act_id", nullable = false)
     private Long actId;
 
-    @Column(name = "name")
+    @Column(name = "action_name")
     private String name;
 
     public Long getActId() {
@@ -27,13 +30,5 @@ public class Action {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    @Override
-    public String toString() {
-        return "Action{" +
-                "id=" + actId +
-                ", name='" + name + '\'' +
-                '}';
     }
 }

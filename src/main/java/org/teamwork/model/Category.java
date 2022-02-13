@@ -1,12 +1,13 @@
 package org.teamwork.model;
 
-import org.hibernate.validator.constraints.NotEmpty;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.time.LocalDateTime;
 
 @Entity
+@NoArgsConstructor
 @Table(name = "category")
 public class Category {
     @Id
@@ -16,7 +17,6 @@ public class Category {
 
     @Column(name = "category_name")
     @Size(max = 20, min = 3, message = "{category.name.invalid}")
-    @NotEmpty(message="Please Enter Category Name")
     private String name;
 
     @Column(name = "last_update")

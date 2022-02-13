@@ -11,15 +11,10 @@ import java.util.List;
 
 @Controller
 public class UserController {
-
+    @Autowired
     private UserService userService;
 
-    @Autowired
-    public void setUserService(UserService userService) {
-        this.userService = userService;
-    }
-
-    @RequestMapping(/*value = "/",*/method = RequestMethod.GET)
+    @RequestMapping(value = "/", method = RequestMethod.GET)
     public ModelAndView allUsers() {
         List<User> users = userService.getAll();
         ModelAndView modelAndView = new ModelAndView();

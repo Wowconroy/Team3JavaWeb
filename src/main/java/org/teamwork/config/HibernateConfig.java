@@ -15,15 +15,14 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration
-@ComponentScan({"org.teamwork"})
 @EnableTransactionManagement
 @PropertySource({"classpath:db.properties"})
+@ComponentScan({"org.teamwork"})
 public class HibernateConfig {
 
     @Resource
     private Environment environment;
 
-    @Bean
     public DataSource dataSource() {
         final BasicDataSource dataSource = new BasicDataSource();
         dataSource.setDriverClassName(environment.getRequiredProperty("jdbc.driverClassName"));
@@ -37,7 +36,7 @@ public class HibernateConfig {
     public LocalSessionFactoryBean sessionFactory() {
         LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(dataSource());
-        sessionFactory.setPackagesToScan("org.teamwork.model");
+        sessionFactory.setPackagesToScan("org.teamwork.model.User");
         sessionFactory.setHibernateProperties(hibernateProperties());
         return sessionFactory;
     }
@@ -45,7 +44,7 @@ public class HibernateConfig {
     private Properties hibernateProperties() {
         Properties properties = new Properties();
         properties.put("hibernate.dialect", environment.getRequiredProperty("hibernate.dialect"));
-        properties.put("hibernate.hbm2ddl", environment.getRequiredProperty("hibernate.hbm2ddl"));
+        properties.put("hibernate.hbm2ddl.auto", environment.getRequiredProperty("hibernate.hbm2ddl.auto"));
         properties.put("hibernate.show_sql", environment.getRequiredProperty("hibernate.show_sql"));
         properties.put("hibernate.format_sql", environment.getRequiredProperty("hibernate.format_sql"));
         properties.put("hibernate.connection.characterEncoding", environment.getRequiredProperty("hibernate.connection.characterEncoding"));
@@ -56,6 +55,7 @@ public class HibernateConfig {
     }
 
     @Bean
+    @Autowired
     public HibernateTransactionManager transactionManager(SessionFactory sessionFactory) {
         HibernateTransactionManager transactionManager = new HibernateTransactionManager();
         transactionManager.setSessionFactory(sessionFactory);
