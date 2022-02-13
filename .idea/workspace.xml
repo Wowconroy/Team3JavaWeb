@@ -9,39 +9,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Update Lesha">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5d273f65-966b-47ef-8790-deb3b3c7f015.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5d273f65-966b-47ef-8790-deb3b3c7f015.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5d273f65-966b-47ef-8790-deb3b3c7f015/storage_v2/_src_/database/library.uyToCQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5d273f65-966b-47ef-8790-deb3b3c7f015/storage_v2/_src_/database/library.uyToCQ/schema/public.abK9xQ.meta" afterDir="false" />
+    <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Update Lesha, POM, User + add DB + Update Books">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/MainTrial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/config/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/config/HibernateConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/model/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/UserRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editPage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/MainTrial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/getCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/getCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/config/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/config/AppInitializer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/config/HibernateConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/config/HibernateConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/config/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/config/WebMvcConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/dao/UserDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/dao/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/dao/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/Author.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/AuthorRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/AuthorRole.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/BookAuthor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/BookAuthor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/BookCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/BookCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/BookOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/BookOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/Bookkeeping.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/Bookkeeping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/Category.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/UserRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/model/UserRole.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/views/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/views/users.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/MainTrial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/services/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/services/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/services/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/hibernate-validator-5.4.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/lombok-1.18.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/lib/validation-api-1.0.0.GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/getCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/getCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/config/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/config/AppInitializer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/config/HibernateConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/config/HibernateConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/config/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/config/WebMvcConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/dao/UserDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/dao/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/dao/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/model/Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/model/Author.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/AuthorRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/model/AuthorRole.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/model/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/BookAuthor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/model/BookAuthor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/BookCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/model/BookCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/BookOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/model/BookOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/Bookkeeping.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/model/Bookkeeping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/model/Category.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/model/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/model/UserRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/model/UserRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/services/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/services/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/services/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -415,14 +433,7 @@
       <workItem from="1644666745836" duration="250000" />
       <workItem from="1644671643926" duration="298000" />
       <workItem from="1644673428327" duration="126000" />
-      <workItem from="1644743765328" duration="3672000" />
-    </task>
-    <task id="LOCAL-00007" summary="Update User">
-      <created>1644102251330</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1644102251330</updated>
+      <workItem from="1644743765328" duration="4421000" />
     </task>
     <task id="LOCAL-00008" summary="Update User &amp; DAO">
       <created>1644102705586</created>
@@ -760,7 +771,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644671787375</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Update Lesha, POM, User + add DB + Update Books">
+      <created>1644747494701</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1644747494702</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -791,6 +809,7 @@
     <MESSAGE value="Update Session Factory&#10;+application context" />
     <MESSAGE value="Add configuration" />
     <MESSAGE value="Update Lesha" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Lesha" />
+    <MESSAGE value="Update Lesha, POM, User + add DB + Update Books" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Lesha, POM, User + add DB + Update Books" />
   </component>
 </project>
