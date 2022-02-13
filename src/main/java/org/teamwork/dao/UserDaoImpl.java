@@ -25,13 +25,14 @@ public class UserDaoImpl implements UserDao<User> {
     public User getById(Long id) {
         Session session = sessionFactory.getCurrentSession();
         return session.get(User.class, id);
+//        return sessionFactory.getCurrentSession().find(User.class, id);
     }
 
     @Override
     @SuppressWarnings("unchecked")
     public List<User> getAll() {
         Session session = sessionFactory.getCurrentSession();
-        return session.createQuery("from User").list();
+        return session.createQuery("from User").getResultList();
     }
 
     @Override
@@ -43,7 +44,7 @@ public class UserDaoImpl implements UserDao<User> {
     @Override
     public void update(User user) {
         Session session = sessionFactory.getCurrentSession();
-        session.update(user);
+        session.saveOrUpdate(user);
     }
 
     @Override

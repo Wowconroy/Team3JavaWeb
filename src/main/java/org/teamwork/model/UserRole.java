@@ -8,14 +8,14 @@ import java.util.List;
 public class UserRole {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "role_id", nullable = false)
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "role_id")
     private Long id;
 
     @Column(name = "role_name")
     private String roleName;
 
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "userRole")
+    @OneToMany(mappedBy = "userRole")
     private List<User> usersRole;
 
     public Long getId() {

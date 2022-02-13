@@ -3,8 +3,6 @@
 <html>
 <head>
     <title>USERS</title>
-<%--    <link href="<c:url value="/res/style.css"/>" rel="stylesheet" type="text/css"/>--%>
-<%--    <link rel="icon" type="image/png" href="<c:url value="/res/favicon.png"/>"/>--%>
 </head>
 <body>
 <table class="style">
@@ -24,8 +22,7 @@
                 <td class="title">${user.userRole()}</td>
                 <td>${user.firstName}</td>
                 <td>${user.lastName}</td>
-                <td>
-                </td>
+                <td></td>
                 <td>
                     <a href="/edit/${user.firstName}">
                         <span class="icon icon-edit"></span>

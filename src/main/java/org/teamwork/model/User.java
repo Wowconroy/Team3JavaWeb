@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 public class User {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "user_id")
     private Long userId;
 
@@ -26,7 +26,7 @@ public class User {
     @NotEmpty(message="Please Enter your last name")
     private String lastName;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "role_id")
     @NotEmpty(message="Please Enter role id")
     private UserRole userRole;
