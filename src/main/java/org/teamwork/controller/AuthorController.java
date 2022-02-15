@@ -22,7 +22,7 @@ public class AuthorController {
         this.authorService = authorService;
     }
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(method = RequestMethod.GET)
     public ModelAndView getAll() {
         List<Author> authors = authorService.getAll();
         ModelAndView modelAndView = new ModelAndView();
@@ -56,20 +56,20 @@ public class AuthorController {
         return modelAndView;
     }
 
-    @RequestMapping(value = "/edit", method = RequestMethod.POST)
-    public ModelAndView editAuthor(@ModelAttribute("author") Author author) {
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.setViewName("redirect:/");
-        authorService.update(author);
-        return modelAndView;
-    }
-
     @RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)
     public ModelAndView deleteAuthor(@PathVariable("id") int id) {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("redirect:/");
         Author author = authorService.getById(id);
         authorService.delete(author);
+        return modelAndView;
+    }
+
+    @RequestMapping(value = "/edit", method = RequestMethod.POST)
+    public ModelAndView editAuthor(@ModelAttribute("author") Author author) {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("redirect:/");
+        authorService.update(author);
         return modelAndView;
     }
 }
