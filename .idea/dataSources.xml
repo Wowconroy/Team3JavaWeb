@@ -26,5 +26,15 @@ C:/data/TeamWork/src/main/resources/hibernate.cfg.xml</remarks>
       <jdbc-url>jdbc:postgresql://localhost:5432/books</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="Library2022" uuid="20503a9c-b08f-4d63-abfa-6dcc2fb321fa">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://45.84.206.101:3306/u417527816_okko_audit</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="enabledTLSProtocols" value="TLSv1,TLSv1.2,TLSv1.3" />
+      </driver-properties>
+    </data-source>
   </component>
 </project>

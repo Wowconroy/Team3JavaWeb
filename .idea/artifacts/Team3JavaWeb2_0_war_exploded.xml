@@ -1,21 +1,23 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="Team3:war exploded">
+  <artifact type="exploded-war" name="Team3JavaWeb2.0:war exploded">
     <output-path>$PROJECT_DIR$/target/Team3JavaWeb2.0</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
-        <module>Team3</module>
+        <module>Team3JavaWeb2.0</module>
         <packaging>war</packaging>
       </options>
     </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="Team3" />
+          <element id="module-output" name="Team3JavaWeb2.0" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.15" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.15" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.28" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.15" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.15" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.15" />
@@ -128,7 +130,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/Team3JavaWeb2.0/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="Team3/web/Web" />
+      <element id="javaee-facet-resources" facet="Team3JavaWeb2.0/web/Web" />
     </root>
   </artifact>
 </component>

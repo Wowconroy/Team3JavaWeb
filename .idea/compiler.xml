@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Team3" />
+        <module name="Team3JavaWeb2.0" />
       </profile>
     </annotationProcessing>
   </component>
