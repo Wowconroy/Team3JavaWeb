@@ -9,26 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Update Lesha, Books + Authors">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/controller/AuthorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/AuthorDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/AuthorDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/services/AuthorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/services/AuthorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Team3_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Team3JavaWeb2_0_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5d273f65-966b-47ef-8790-deb3b3c7f015.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d13b478-9dd6-4c83-a25d-62f5f9b5469a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6d13b478-9dd6-4c83-a25d-62f5f9b5469a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d6aae68-ebab-4f12-b33b-04b0448d7423.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8d6aae68-ebab-4f12-b33b-04b0448d7423.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_20_58__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_20_58__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_43__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_43__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_49__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_49__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Add realization Author" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -413,14 +394,7 @@
       <workItem from="1644673428327" duration="126000" />
       <workItem from="1644743765328" duration="5194000" />
       <workItem from="1644749532792" duration="7966000" />
-      <workItem from="1644880708815" duration="2492000" />
-    </task>
-    <task id="LOCAL-00009" summary="Update User &amp; DAO">
-      <created>1644104514321</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1644104514321</updated>
+      <workItem from="1644880708815" duration="2792000" />
     </task>
     <task id="LOCAL-00010" summary="Update User &amp; pom, add applicationContext.xml">
       <created>1644147170642</created>
@@ -758,7 +732,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644748467246</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Add realization Author">
+      <created>1644883388098</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1644883388099</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -791,6 +772,7 @@
     <MESSAGE value="Update Lesha" />
     <MESSAGE value="Update Lesha, POM, User + add DB + Update Books" />
     <MESSAGE value="Update Lesha, Books + Authors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Lesha, Books + Authors" />
+    <MESSAGE value="Add realization Author" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add realization Author" />
   </component>
 </project>
