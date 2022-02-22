@@ -81,9 +81,13 @@
 
     </style>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>JSP List Users Records</title>
+
 </head>
 <body>
+<a href="../blist.jsp"><input type="button" value="Book list"></a></b>
+<a href="../alist.jsp"><input type="button" value="Author list"></a></b>
+<a href="../tlist.jsp"><input type="button" value="Title list"></a></b>
+<a href="../ulist.jsp"><input type="button" value="Users list"></a></b>
 <sql:setDataSource
         var="myDS"
         driver="com.mysql.jdbc.Driver"
@@ -101,7 +105,7 @@
 
 <div align="center">
     <table border="1" cellpadding="5">
-        <caption><h2>List of users</h2></caption>
+        <caption><h2>List of books</h2></caption>
         <tr>
             <th>ID</th>
             <th>Author name</th>

@@ -16,12 +16,13 @@
         url="jdbc:mysql://45.84.206.101:3306/u417527816_okko_audit"
         user="u417527816_maks" password="Library2022"
 />
+<div align="center">
 
+    <form class="style" action="../uadd.jsp" name="film" method="POST">
+        <p><input type="text" name="title" placeholder="Name" value="${user.first_name}" maxlength="100" required autofocus
+                  pattern="^[^\s]+(\s.*)?$">
 
-<sql:update var="addUsers"	dataSource="${myDS}">
-    INSERT INTO `user` (`user_id`, `first_name`, `role_id`, `last_name`, `email`, `password`, `date_of_birth`, `registration_date`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, current_timestamp());
-</sql:update>
-
-
+    </form>
+</div>
 </body>
 </html>

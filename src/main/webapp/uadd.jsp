@@ -22,9 +22,6 @@
     INSERT INTO `user` (`user_id`, `first_name`, `role_id`, `last_name`, `email`, `password`, `date_of_birth`, `registration_date`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, current_timestamp());
 </sql:update>
 
-<div align="center">
 
-
-</div>
 </body>
 </html>

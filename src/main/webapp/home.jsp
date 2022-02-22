@@ -83,9 +83,10 @@
 <body>
 <h2>Home</h2>
 
-        <a href="../blist.jsp"><input type="button" value="Book list"></a></b>
-        <a href="../alist.jsp"><input type="button" value="Author list"></a></b>
-        <a href="../tlist.jsp"><input type="button" value="Title list"></a></b>
+<a href="../blist.jsp"><input type="button" value="Book list"></a></b>
+<a href="../alist.jsp"><input type="button" value="Author list"></a></b>
+<a href="../tlist.jsp"><input type="button" value="Title list"></a></b>
+<a href="../ulist.jsp"><input type="button" value="Users list"></a></b>
 
 </body>
 </html>

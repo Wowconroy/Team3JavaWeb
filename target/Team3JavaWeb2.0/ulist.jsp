@@ -44,7 +44,20 @@
             cursor: pointer;
         }
 
-        input[type=text], input[type=email], input[type=password] {
+        input[type=submit], input[type=button]{
+            background-color: gray;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        input[type=text], input[type=email], input[type=password], input[type=date] {
             background-color: #ddd;
             color: black;
             border: none;
@@ -68,9 +81,13 @@
 
     </style>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>JSP List Users Records</title>
+
 </head>
 <body>
+<a href="../blist.jsp"><input type="button" value="Book list"></a></b>
+<a href="../alist.jsp"><input type="button" value="Author list"></a></b>
+<a href="../tlist.jsp"><input type="button" value="Title list"></a></b>
+<a href="../ulist.jsp"><input type="button" value="Users list"></a></b>
 <sql:setDataSource
         var="myDS"
         driver="com.mysql.jdbc.Driver"
@@ -81,6 +98,11 @@
 <sql:query var="listUsers"	dataSource="${myDS}">
     SELECT * FROM user;
 </sql:query>
+<sql:update var="deleteUsers"	dataSource="${myDS}">
+
+    DELETE FROM `user` WHERE `user`.`user_id` = ?;
+    <sql:param value = "${empId}" />
+</sql:update>
 
 
 
@@ -98,6 +120,7 @@
             <th>Delete</th>
         </tr>
         <c:forEach var="user" items="${listUsers.rows}">
+
             <tr>
                 <td><c:out value="${user.user_id}" /></td>
                 <td><c:out value="${user.first_name}" /></td>
@@ -106,8 +129,9 @@
                 <td><c:out value="${user.email}" /></td>
                 <td><c:out value="${user.password}" /></td>
                 <td><input type="button" value="Edit"></td>
-                <td><input type="button" value="Delete"></td>
+                <td><input type="button" value="Delete"><c:set var = "empId" value = "${user.user_id}"/></td>
             </tr>
+
         </c:forEach>
     </table>
 </div>

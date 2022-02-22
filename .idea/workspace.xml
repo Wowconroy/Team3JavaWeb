@@ -10,59 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Add test">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/DAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/alist.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booklist.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/tlist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/20503a9c-b08f-4d63-abfa-6dcc2fb321fa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/20503a9c-b08f-4d63-abfa-6dcc2fb321fa.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d13b478-9dd6-4c83-a25d-62f5f9b5469a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d6aae68-ebab-4f12-b33b-04b0448d7423.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_20_58_[Changes]/MainTrial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_20_58_[Changes]/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_20_58_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_20_58__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_43_[Changes]/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_43_[Changes]/BookOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_43_[Changes]/MainTrial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_43_[Changes]/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_43_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_43__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_49_[Changes]/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_49_[Changes]/BookOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_49_[Changes]/MainTrial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_49_[Changes]/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_49_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_49__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_02_2022_1_23__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_02_2022_1_23__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/uadds.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/config/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/AuthorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/AuthorDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/AuthorDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/AuthorDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/model/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/addbook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addbook.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/alist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alist.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/blist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/blist.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/reg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/reg.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/tlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/tlist.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/uadd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/uadd.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/ulist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ulist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/config/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/config/WebMvcConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/test.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/uadd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/uadd.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/ulist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/ulist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/config/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/config/WebMvcConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,12 +83,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="PostgreSQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Jsp-Insert-Update-Delete-MySQL" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40114942" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -527,14 +485,7 @@
       <workItem from="1644749532792" duration="7966000" />
       <workItem from="1644880708815" duration="3331000" />
       <workItem from="1644923727782" duration="4677000" />
-      <workItem from="1645017979731" duration="31235000" />
-    </task>
-    <task id="LOCAL-00016" summary="Add Session Factory">
-      <created>1644268289420</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1644268289420</updated>
+      <workItem from="1645017979731" duration="36890000" />
     </task>
     <task id="LOCAL-00017" summary="Update Session Factory&#10;+application context">
       <created>1644314239388</created>
@@ -872,7 +823,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645521839467</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Add test">
+      <created>1645522858323</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1645522858323</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

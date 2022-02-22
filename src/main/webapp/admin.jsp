@@ -81,7 +81,6 @@
     <title>JSP List Users Records</title>
 </head>
 <body>
-<h2>Home</h2>
 
 <a href="../blist.jsp"><input type="button" value="Book list"></a></b>
 <a href="../alist.jsp"><input type="button" value="Author list"></a></b>
