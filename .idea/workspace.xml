@@ -9,9 +9,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Add realization Author">
+    <list default="true" id="0f0c74ba-f6f8-456d-84ec-ce61457824e4" name="Changes" comment="Add test">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/DAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/alist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/booklist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/test1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/tlist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/20503a9c-b08f-4d63-abfa-6dcc2fb321fa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/20503a9c-b08f-4d63-abfa-6dcc2fb321fa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d13b478-9dd6-4c83-a25d-62f5f9b5469a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d6aae68-ebab-4f12-b33b-04b0448d7423.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_20_58_[Changes]/MainTrial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_20_58_[Changes]/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_20_58_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_20_58__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_43_[Changes]/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_43_[Changes]/BookOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_43_[Changes]/MainTrial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_43_[Changes]/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_43_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_43__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_49_[Changes]/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_49_[Changes]/BookOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_49_[Changes]/MainTrial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_49_[Changes]/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_49_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2022_21_49__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_02_2022_1_23__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_02_2022_1_23__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/controller/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/controller/AuthorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/AuthorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/AuthorDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/AuthorDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/dao/AuthorDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/teamwork/model/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/teamwork/model/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/addbook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addbook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/blist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/blist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/reg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/reg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uadd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/uadd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ulist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ulist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/config/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/WEB-INF/classes/org/teamwork/config/WebMvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/uadd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/uadd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Team3JavaWeb2.0/ulist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Team3JavaWeb2.0/ulist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teamwork/config/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teamwork/config/WebMvcConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +72,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="jsf" />
       </list>
     </option>
   </component>
@@ -65,12 +119,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql&#10;mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="PostgreSQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -81,13 +137,39 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\дарія\IdeaProjects\Team3JavaWeb\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\дарія\IdeaProjects\Team3JavaWeb\src\main\webapp" />
       <recent name="C:\data\TeamWork" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\дарія\IdeaProjects\Team3JavaWeb\src\main\webapp" />
+      <recent name="C:\Users\дарія\IdeaProjects\Team3JavaWeb\src\main\webapp\res" />
     </key>
   </component>
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
+      <option name="adminPort" value="8005" />
+      <option name="contextPath" value="/Team3JavaWeb2.0" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8080" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.58" />
+          <option name="number" value="0" />
+          <option name="path" value="C:\Program Files\Apache Software Foundation\Tomcat 9.0" />
+          <option name="version" value="9.0.58.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Team3" />
       <method v="2">
@@ -237,7 +319,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 9.0.54" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.54" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 9.0.54" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.58" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8041/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Team3JavaWeb2.0:war exploded">
@@ -248,7 +331,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="7867a891-2ee5-4d58-8deb-f83c4a470301" />
-        <option name="HTTP_PORT" value="8040" />
+        <option name="HTTP_PORT" value="8041" />
         <option name="JNDI_PORT" value="1030" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
@@ -404,26 +487,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
-      <option name="adminPort" value="8005" />
-      <option name="contextPath" value="/Team3JavaWeb2.0" />
-      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions" />
-      <option name="passParentEnvironmentVariables" value="true" />
-      <option name="port" value="8080" />
-      <option name="tomcatInfo">
-        <TomcatInfo>
-          <option name="name" value="Apache Tomcat/9.0.58" />
-          <option name="number" value="0" />
-          <option name="path" value="C:\Program Files\Apache Software Foundation\Tomcat 9.0" />
-          <option name="version" value="9.0.58.0" />
-        </TomcatInfo>
-      </option>
-      <option name="vmOptions" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -463,41 +526,8 @@
       <workItem from="1644743765328" duration="5194000" />
       <workItem from="1644749532792" duration="7966000" />
       <workItem from="1644880708815" duration="3331000" />
-    </task>
-    <task id="LOCAL-00011" summary="Add list of dependencies">
-      <created>1644181062052</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1644181062052</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Add Book, UserOrder + DAO">
-      <created>1644251911236</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1644251911236</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Add Session Factory">
-      <created>1644264686949</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1644264686949</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Add Session Factory">
-      <created>1644268124469</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1644268124469</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Add Session Factory">
-      <created>1644268249394</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1644268249394</updated>
+      <workItem from="1644923727782" duration="4677000" />
+      <workItem from="1645017979731" duration="31235000" />
     </task>
     <task id="LOCAL-00016" summary="Add Session Factory">
       <created>1644268289420</created>
@@ -807,7 +837,42 @@
       <option name="project" value="LOCAL" />
       <updated>1644883571805</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Add test">
+      <created>1645044124994</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1645044124995</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Add test">
+      <created>1645507551737</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1645507551737</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Add test">
+      <created>1645507589790</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1645507589790</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Add test">
+      <created>1645520558118</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1645520558118</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Add test">
+      <created>1645521839466</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1645521839467</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -823,6 +888,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update gitignore" />
@@ -841,6 +907,7 @@
     <MESSAGE value="Update Lesha, POM, User + add DB + Update Books" />
     <MESSAGE value="Update Lesha, Books + Authors" />
     <MESSAGE value="Add realization Author" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add realization Author" />
+    <MESSAGE value="Add test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test" />
   </component>
 </project>

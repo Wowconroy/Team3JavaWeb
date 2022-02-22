@@ -1,6 +1,9 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
     <style type="text/css">
@@ -81,11 +84,40 @@
     <title>JSP List Users Records</title>
 </head>
 <body>
-<h2>Home</h2>
+<sql:setDataSource
+        var="myDS"
+        driver="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://45.84.206.101:3306/u417527816_okko_audit"
+        user="u417527816_maks" password="Library2022"
+/>
 
-        <a href="../blist.jsp"><input type="button" value="Book list"></a></b>
-        <a href="../alist.jsp"><input type="button" value="Author list"></a></b>
-        <a href="../tlist.jsp"><input type="button" value="Title list"></a></b>
 
+<sql:query var="listAuthors"	dataSource="${myDS}">
+    SELECT * FROM author;
+</sql:query>
+
+
+<div align="center">
+    <table border="1" cellpadding="5">
+        <caption><h2>List of users</h2></caption>
+        <tr>
+            <th>ID</th>
+            <th>Author name</th>
+            <th>Author surname</th>
+
+
+        </tr>
+
+        <c:forEach var="author" items="${listAuthors.rows}">
+            <tr>
+                <td><c:out value="${author.author_id}" /></td>
+                <td><c:out value="${author.first_name}" /></td>
+                <td><c:out value="${author.last_name}" /></td>
+
+            </tr>
+        </c:forEach>
+
+    </table>
+</div>
 </body>
 </html>

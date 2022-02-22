@@ -18,37 +18,13 @@
 />
 
 
-<sql:query var="addUsers"	dataSource="${myDS}">
-    INSERT INTO `user` (`user_id`, `first_name`, `role_id`, `last_name`, `email`, `password`, `date_of_birth`, `registration_date`) VALUES (NULL, ? ,NULL, NULL, NULL, NULL, NULL, current_timestamp());
-</sql:query>
+<sql:update var="addUsers"	dataSource="${myDS}">
+    INSERT INTO `user` (`user_id`, `first_name`, `role_id`, `last_name`, `email`, `password`, `date_of_birth`, `registration_date`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, current_timestamp());
+</sql:update>
 
 <div align="center">
-    <table border="1" cellpadding="5">
-        <caption><h2>List of users</h2></caption>
-        <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Surname</th>
-            <th>Birth date</th>
-            <th>Email</th>
-            <th>Password</th>
-        </tr>
-        <c:forEach var="user" items="${listUsers.rows}">
-            <tr>
-                <td><c:out value="${user.user_id}" /></td>
-                <td><c:out value="${user.first_name}" /></td>
-                <td><c:out value="${user.last_name}" /></td>
-                <td><c:out value="${user.date_of_birth}" /></td>
-                <td><c:out value="${user.email}" /></td>
-                <td><c:out value="${user.password}" /></td>
-            </tr>
-        </c:forEach>
-    </table>
-    <form class="style" action="${empty addUsers}" name="film" method="POST">
-        <p><input type="text" name="title" placeholder="title" value="${user.first_name}" maxlength="100" required autofocus
-                  pattern="^[^\s]+(\s.*)?$">
 
-    </form>
+
 </div>
 </body>
 </html>

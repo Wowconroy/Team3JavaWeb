@@ -1,61 +1,34 @@
 package org.teamwork.model;
 
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import javax.persistence.*;
-import javax.validation.constraints.Size;
+import java.util.List;
 
 @Entity
+@Getter
+@Setter
+@Table(name = "authors")
 @NoArgsConstructor
-@Table(name = "author")
 public class Author {
-
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "author_id")
-    private Long authorId;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column
+    int id;
 
-    @Column(name = "first_name")
-    @Size(max = 20, min = 3, message = "{user.name.invalid}")
-    private String firstName;
+    @Column(name = "first_name", nullable = false)
+    String firstName;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "author_role_id")
-    private AuthorRole authorRole;
+    @Column(name = "last_name", nullable = false)
+    String lastName;
 
-    @Column(name = "last_name")
-    @Size(max = 20, min = 3, message = "{user.name.invalid}")
-    private String lastName;
+    @ManyToMany(cascade = CascadeType.ALL)
+    @JoinTable(name = "books_authors",
+            joinColumns = @JoinColumn(name = "author_id"),
+            inverseJoinColumns = @JoinColumn(name = "book_id"))
+    private List<Book> books;
 
-    public Long getAuthorId() {
-        return authorId;
-    }
-
-    public void setAuthorId(Long authorId) {
-        this.authorId = authorId;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public AuthorRole getAuthorRole() {
-        return authorRole;
-    }
-
-    public void setAuthorRole(AuthorRole authorRole) {
-        this.authorRole = authorRole;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
 
 }
